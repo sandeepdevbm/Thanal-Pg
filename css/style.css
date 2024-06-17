@@ -136,11 +136,7 @@ a {
       max-width: 780px;
       left: -20px; }
       @media (max-width: 768px) {
-        .hero-img-cont{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+        
         .hero .hero-img-wrap img {
           margin-bottom: 30px;
           height: 500px;
