@@ -130,19 +130,21 @@ a {
       position: relative;
       height: 500px;
       border-radius: 5%;
-      margin-left: 120px;
       top: 0px;
       right: 0px;
       z-index: 2;
       max-width: 780px;
       left: -20px; }
       @media (max-width: 768px) {
+        .hero-img-cont{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
         .hero .hero-img-wrap img {
           margin-bottom: 30px;
-          margin-left:60px;
           height: 500px;
-          right: 0px;
-          left: -100px } }
+         } }
       @media (min-width: 992px) {
         .hero .hero-img-wrap img {
           left: 0px;
